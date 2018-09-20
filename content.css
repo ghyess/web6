@@ -1,0 +1,110 @@
+@charset "utf-8";
+/*  페이지 공통  */
+.con {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.line {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/*    첫번째 페이지    */
+
+#page1 {
+    width: 100%;
+    height: 635px;
+    background: #fff;
+}
+#page1 .conwrap>div {
+    position: relative;
+    width: 640px;
+    height: 635px;
+    float: left;
+}
+#page1 .conwrap .con_txt {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+#page1 .conwrap a {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/*    이벤트 배너    */
+#banner { clear: both; }
+
+/*    두 번째 페이지    */
+#page2 {
+    width: 100%;
+    height: 955px;
+    background-image: url("./img/pg3.jpg");
+    background-repeat: no-repeat;
+    clear: both;
+}
+#page2 .conwrap {
+    width: 1740px;
+    height: 580px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 7%;
+}
+
+#page2 .conTit {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 4;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#page2 .con_inner {
+    width: 580px;
+    height: 580px;
+    float: left;
+    position: relative;
+}
+#page2 .line {
+    width: 200px;
+    margin-top: 25px;
+}
+#page2 .con_inner p {
+    text-align: center;
+    color: #fff;
+    margin-top: 17%;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+/*    세 번째 페이지    */
+#page3 {
+    width: 100%;
+    height: 470px;
+    clear: both;
+}
+
+#page3 .adv {
+    width: 960px;
+    height: 470px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+#page3 .adv p {
+    color: #fff;
+    font-family: 'Noto Sans KR'
+    font-weight: 100;
+    font-size: 34px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
